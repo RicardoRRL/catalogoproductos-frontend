@@ -11,5 +11,5 @@ export class ProductsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  image1 = 'assets/images/6.jpg'
 }
