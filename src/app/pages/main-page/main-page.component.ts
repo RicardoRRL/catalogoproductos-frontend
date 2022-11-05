@@ -12,4 +12,14 @@ export class MainPageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  images = [
+    {
+      imageSrc: 'assets/images/codigo-descuento-ferreteria.jpg',
+      imageAlt: "descuento"
+    },
+    {
+      imageSrc: 'assets/images/FerreteríaExitosa.jpg',
+      imageAlt: "Ferreteria"
+    }
+  ]
 }
